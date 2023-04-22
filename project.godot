@@ -28,6 +28,10 @@ window/size/viewport_height=1080
 window/stretch/mode="canvas_items"
 window/stretch/aspect="keep_height"
 
+[dotnet]
+
+project/assembly_name="TPS Demo"
+
 [input]
 
 move_up={
@@ -114,3 +118,11 @@ pause={
 [physics]
 
 3d/default_gravity=16.0
+
+[rendering]
+
+lights_and_shadows/use_physical_light_units=true
+environment/ssao/quality=3
+environment/ssil/quality=3
+environment/screen_space_reflection/roughness_quality=2
+environment/subsurface_scattering/subsurface_scattering_quality=2
